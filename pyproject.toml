@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "githubctl"
+version = "0.1.0"
+description = ""
+authors = ["lrf <465197183@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = {extras = ["all"], version = "^0.12.5"}
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
